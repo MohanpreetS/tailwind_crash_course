@@ -1,5 +1,6 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: [],
+  content: ["./public/index.html"],
   theme: {
     extend: {
       colors: {
@@ -17,3 +18,4 @@ module.exports = {
   variants: {},
   plugins: [],
 }
+
